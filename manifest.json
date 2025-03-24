@@ -1,0 +1,50 @@
+{
+    "manifest_version": 2,
+    "name": "Site Inspector",
+    "version": "0.37",
+
+    "description": "Provides an overview of website security and identity.",
+
+    // "icons": {
+    // 	"48": "icons/uglify-certless-48.png"
+    // },
+
+    "content_scripts": [
+	{
+	    "matches": ["<all_urls>"],
+	    "js": ["purify.min.js", "content-script.js"],
+	    "css": ["style.css"]
+	}
+    ],
+
+    "background": {
+	"scripts": ["background.js"]
+    },
+
+    "commands": {
+	"shortcutz": {
+	    "suggested_key": {
+		"default": "Ctrl+Alt+Y"
+	    },
+	    "description": "Send a 'toggle-feature' event"
+	}
+    }, 
+
+    "permissions": [
+	"webRequest", "<all_urls>", "webRequestBlocking", "storage"
+    ],
+    "web_accessible_resources": [
+	"icons/*.svg"
+    ],
+    "browser_action": {
+	// 	"default_icon": {
+	// 	    "48": "icons/uglify-certless-48.png"
+	// 	},
+	"default_popup": "popup/popup.html"
+    }// ,
+    // "browser_specific_settings": {
+    // 	"gecko": {
+    // 	    "update_url": "https://ericspero.com/updates"
+    // 	}
+    // }
+}

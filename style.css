@@ -1,0 +1,285 @@
+:root {
+    --bigpadding: 14px;
+    --smallpadding: 12px;
+    --bigwidth: 340px;
+}
+
+.invert_colours {
+    font-family: monospace;
+    filter: invert(1);
+    /* background-image: linear-gradient(to right, red, yellow, green, cyan, blue, violet); */
+}
+
+#wrapper_box b {
+    font-weight: 600;
+}
+
+#wrapper_box{
+    position: absolute;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: var(--bigwidth);
+    z-index: 100000;
+    background-color: #bbb;
+    color: #333;
+    text-align: center;
+    box-shadow: 2px 4px 20px #444;
+}
+
+#alert_box {
+    background-color: #ffe065;
+    line-height: 28px;
+    font-weight: bolder;
+    padding: 0px var(--bigpadding);
+    font-size: 14px;
+    box-sizing: content-box;
+}
+
+.textbody {
+    padding: 0px 0px 18px 0px;
+}
+
+.hidebox {
+    display: none !important;
+}
+
+.box_siteinsp {
+    display: inline-block;
+    position: relative;
+    line-height: 2.5ex;
+    text-align: left;
+    text-decoration: none;
+    margin: 0px;
+    width: calc(100% - var(--bigpadding) * 2);
+    font-size: 12pt;
+}
+
+.domainbox {
+    box-sizing: content-box;
+    padding: 10px var(--bigpadding);
+    display: inline-block;
+    background-color: #555;
+    cursor: move;
+    color: white;
+}
+
+.iconbox {
+    width: 100%;
+    background-color: #fff;
+    line-height: 2.5ex;
+    padding: 8px var(--bigpadding);
+    cursor: pointer;
+    color: #333;
+    transition: background-color .1s ease-in-out;
+    font-size: 14px;
+    border-style: none;
+}
+
+.iconbox img {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    height: 24px;
+}
+
+.iconbox:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    text-color: #fff;
+    float: right;
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.iconactive, .iconbox:hover {
+    background-color: #e3e3e3;
+}
+
+#wowow {
+    float: right;
+    position: absolute;
+}
+
+.iconactive:after {
+    content: "\2796";  /* Minus sign */
+}
+
+
+.textareadiv {
+    cursor: default;
+    position: relative;
+    padding: 0px var(--bigpadding);
+    background-color: #fff;
+    text-align: justify;
+    /* align-items: start; */
+    text-justify: inter-word;
+    hyphens: auto;
+    word-break: break-word;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height .2s ease-in-out;
+}
+
+.defaultpos {
+    transition: top 1s ease-in-out;
+    top: 10px;
+    left: 15%;
+}
+
+.contentdiv {
+    transition: opacity .2s ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
+    padding: var(--bigpadding) 0px;
+}
+
+#encryption_div {
+    max-height: 0px;
+}
+
+#identity_div {
+    max-height: 0px;
+}
+
+#h3span {
+    display: block;
+    width: 80%;
+    height: 100%;
+    /* height: 0px; */
+}
+
+.buttonspan {
+    margin-left: 5px;
+}
+
+text {
+    line-height: 2.5ex;
+}
+
+.textareadiv i {
+    display: inline;
+    font-style: italic;
+}
+
+.textareadiv p {
+    font-size: inherit;
+    text-rendering: optimizeLegibility;
+    margin-top: 2ex;
+    margin-bottom: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+.wrapper_box .a {
+    /* grid-column: 1 / 3; */
+    /* grid-row: 43; */
+}
+
+.textareadiv ol{
+    list-style-position: inside;
+}
+
+.textareadiv ul {
+    list-style-position: inside;
+    text-indent: -2ex;
+    padding-left: 2ex;
+    padding-bottom: var (--bigpadding)!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textareadiv li {
+    padding: 3px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:;
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.box_siteinsp img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.textareadiv h3 {
+    width: inherit;
+    margin: 0ex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.textareadiv h4 {
+    font-family: inherit;
+    font-weight: 600;
+    margin-bottom: 1ex;
+    font-size: inherit;
+    color: #222;
+    margin-top: 5px;
+}
+
+.textareadiv br {
+    display: block;
+    margin: 0px;
+}
+
+.extrainfodiv {
+    margin-top: 6px;
+}
+
+.accordion {
+    background-color: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    padding: 6px var(--smallpadding);
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    /* transition: 0.4s; */
+    font-size: 11pt;
+    text-decoration: none;
+    margin: 0px !important;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    //content: '\002C5'; /* Unicode character for "plus" sign (+) */
+    float: right;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.activeextrainfo, .accordion:hover {
+    background-color: #e4e4e4;
+}
+
+.activeextrainfo:after {
+    content: "\2796";  /* Minus sign */
+}
+
+.extrainfopanel {
+    padding: 0px var(--smallpadding);
+    background-color: #f5f5f5;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height .2s ease-in-out;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+
+.accordion_divider {
+    height: 0px;
+    display: block;
+}
+
+.infosymbol {
+    position: absolute;
+    top: -20px;
+    background-color: #f5f5f5;
+    left: 0px;
+    padding: 3px 6px;
+    color: #555;
+    font-size: 12px;
+}

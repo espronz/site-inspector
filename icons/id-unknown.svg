@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.1625cm"
+   height="30.1625cm"
+   viewBox="0 0 301.62498 301.625"
+   version="1.1"
+   id="svg1451"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="id-unknown.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1453"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="true"
+     width="30cm"
+     units="cm"
+     inkscape:zoom="0.5499273"
+     inkscape:cx="533.70691"
+     inkscape:cy="712.82149"
+     inkscape:window-width="1276"
+     inkscape:window-height="1412"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2133"
+       originx="2.6464841e-07"
+       originy="1.25e-06" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1448">
+    <rect
+       x="440"
+       y="760"
+       width="500"
+       height="540"
+       id="rect8007" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.674454,-103.51172)">
+    <circle
+       style="fill-rule:evenodd;stroke-width:0.285051"
+       id="path2157"
+       cx="187.41409"
+       cy="172.50505"
+       r="62.711353" />
+    <g
+       id="g68507">
+      <g
+         id="g68499">
+        <g
+           id="g68492">
+          <g
+             id="g68486">
+            <rect
+               style="fill-rule:evenodd;stroke-width:0.565094"
+               id="rect1505"
+               width="185.83679"
+               height="446.47952"
+               x="92.254318"
+               y="239.11551"
+               rx="80"
+               ry="80" />
+            <text
+               xml:space="preserve"
+               transform="matrix(0.26458333,0,0,0.26458333,33.279481,54.828258)"
+               id="text8005"
+               style="font-style:normal;font-weight:normal;font-size:466.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8007);fill:#000000;fill-opacity:1;stroke:none"
+               rotate="0 0"><tspan
+                 x="440"
+                 y="1180.3524"
+                 id="tspan118"><tspan
+                   style="fill:#ffffff"
+                   id="tspan116">?</tspan></tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

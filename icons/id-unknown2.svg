@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.1625cm"
+   height="30.1625cm"
+   viewBox="0 0 301.62498 301.625"
+   version="1.1"
+   id="svg1451"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="id-unknown2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1453"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="true"
+     width="30cm"
+     units="cm"
+     inkscape:zoom="0.27496365"
+     inkscape:cx="792.83207"
+     inkscape:cy="738.27941"
+     inkscape:window-width="1276"
+     inkscape:window-height="1412"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2133"
+       originx="2.6464841e-07"
+       originy="1.25e-06" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1448">
+    <rect
+       x="600"
+       y="480"
+       width="1320"
+       height="1680"
+       id="rect8105" />
+    <rect
+       x="640"
+       y="80.000005"
+       width="1315.5284"
+       height="1518.109"
+       id="rect182436" />
+    <rect
+       x="800"
+       y="440"
+       width="1040"
+       height="960.00002"
+       id="rect168152" />
+    <rect
+       x="760"
+       y="320"
+       width="1096.7223"
+       height="1253.2949"
+       id="rect56210" />
+    <rect
+       x="800"
+       y="440"
+       width="560"
+       height="600"
+       id="rect45842" />
+    <rect
+       x="440"
+       y="760"
+       width="500"
+       height="540"
+       id="rect8007" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.674454,-103.51172)"
+     style="display:inline">
+    <rect
+       id="rect30018"
+       width="165.50829"
+       height="391.58301"
+       x="38.4995"
+       y="251.67873"
+       rx="72.980034"
+       ry="70"
+       style="stroke-width:0.270156" />
+    <circle
+       id="path30122"
+       cx="119.82957"
+       cy="175.9095"
+       r="60.911377"
+       style="stroke-width:0.234274" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,17.267849,-92.323223)"
+       id="text8103"
+       style="font-style:normal;font-weight:normal;font-size:800px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8105);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="600"
+         y="1200.6035"
+         id="tspan56559"><tspan
+           style="font-weight:bold"
+           id="tspan56557">?</tspan></tspan></text>
+  </g>
+</svg>

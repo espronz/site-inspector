@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+      <h1 class="header">Site Inspector v0.37</h1>
+
+      <input type="checkbox" id="siteinfo_yn_global"></input>
+      <label>Disable &ldquo;Site information&rdquo; window for all sites</label>
+      <br>
+
+      <input type="checkbox" id="siteinfo_yn_site"></input>
+      <label>Disable &ldquo;Site information&rdquo; window for <span id="siteinfo_yn_site_text"></span></label>
+
+
+      <div id="uglify_stuff" class="hide">
+	<input type="checkbox" id="ugl_whitelist"></input>
+	<label id="checkbox_label"></label>
+      </div>
+      
+    </div>
+    
+    <script src="popup.js"></script>
+  </body> 
+  
+</html>

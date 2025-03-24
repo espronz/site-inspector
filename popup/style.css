@@ -1,0 +1,34 @@
+body {
+    /* padding: 10px; */
+}
+
+
+#wrapper h1{
+    font-size: 17px;
+    padding: 0px;
+    color: #333;
+    padding-left: 7px;
+
+}
+
+.header {
+    border-bottom: 1px solid #333;
+    height: 24px;
+    
+}
+
+#developer_mode {
+    padding-top:10px;
+}
+
+#wrapper{
+    height: auto;
+}
+
+/* .show { */
+/*     display: block; */
+/* } */
+
+.hide {
+    display: none;
+}
