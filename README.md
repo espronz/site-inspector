@@ -37,8 +37,8 @@ To set up a development environment using `web-ext`, follow these steps:
 
 1. Clone this repository
 2. Install Node/npm
-3. Install `web-ext`: `npm install -g web-ext`
-4. `cd` into cloned repository
+3. `cd` into cloned repository
+4. Install `web-ext`: `npm install --save-dev web-ext`
 
 Test the extension:
 `web-ext run`
