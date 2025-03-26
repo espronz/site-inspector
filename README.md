@@ -37,10 +37,9 @@ https://addons.mozilla.org/en-US/firefox/addon/site-inspector/
 # For Development
 To set up a development environment using `web-ext`, follow these steps:
 
-1. Clone this repository
+1. `git clone https://github.com/speroe/site-inspector.git && cd site-inspector/`
 2. Install Node/npm
-3. `cd` into cloned repository
-4. Install `web-ext`: `npm install --save-dev web-ext`
+3. `npm install --save-dev web-ext`
 
 Test the extension:
 `web-ext run`
