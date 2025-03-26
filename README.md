@@ -1,6 +1,8 @@
 # Site Inspector
 Site Inspector is a tool that communicates website identity and connection integrity in a user-friendly manner. It checks the website’s X.509 certificate on page load and visually indicates the certificate’s details through intuitive icons and text.
 
+A research paper on Site Inspector, which includes a user study, will be published in the January 2025 edition of the ACM Transactions on Privacy and Security. 
+
 ## Certificate Types
 The tool distinguishes between:
 - Domain Validation (DV)
